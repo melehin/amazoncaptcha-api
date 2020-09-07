@@ -30,9 +30,14 @@ def createTask():
 @app.route('/getTaskResult', methods=['POST'])
 def getTaskResult():
     r = request.get_json()
+
+    try:
+        taskId = int( r['taskId'] )
+    except:
+        return abort(403)
     
-    result = "{}_result.txt".format( r['taskId'] )
-    image = "{}.jpeg".format( r['taskId'] )
+    result = "{}_result.txt".format( taskId )
+    image = "{}.jpeg".format( taskId )
     if os.path.isfile( result ):
         solution = ""
         with open(result) as f:
