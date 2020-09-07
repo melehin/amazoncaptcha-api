@@ -1,0 +1,4 @@
+flask
+amazoncaptcha
+requests
+gunicorn
