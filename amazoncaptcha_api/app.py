@@ -46,9 +46,12 @@ def getTaskResult():
         os.remove( result )
         os.remove( image )
 
-        return {'solution': {
-            'text': solution
-        }}
+        return {
+            'status': 'ready',
+            'solution': {
+                'text': solution
+            }
+        }
     else:
         return abort(404)
 
