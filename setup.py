@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="amazoncaptcha_api",
-    version="0.0.1",
+    version="0.0.2",
     author="Fedor Melekhin",
     author_email="fedormelexin@gmail.com",
     description="Simple anti-captcha compatable API (createTask/getTaskResult) to solve the Amazon's text captcha for free",
