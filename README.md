@@ -1,6 +1,10 @@
 ## Description
 Simple [anti-captcha.com](https://anti-captcha.com) compatable API (createTask/getTaskResult) to solve the Amazon's text captcha for free.
 
+This is simple Flask backend for [amazoncaptcha](https://github.com/a-maliarov/amazon-captcha-solver). **Check it first!**
+
+
+
 ## Installation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install amazoncaptcha-api
 
