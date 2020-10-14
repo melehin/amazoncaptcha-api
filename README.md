@@ -1,7 +1,7 @@
 ## Description
 Simple [anti-captcha.com](https://anti-captcha.com) compatable API (createTask/getTaskResult) to solve the Amazon's text captcha for free.
 
-This is simple Flask backend for [amazoncaptcha](https://github.com/a-maliarov/amazon-captcha-solver). **Check it first!**
+This is simple Flask backend for [amazoncaptcha](https://github.com/a-maliarov/amazoncaptcha). **Check it first!**
 
 
 
